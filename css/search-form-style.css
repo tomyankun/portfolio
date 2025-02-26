@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*------------------------------
+form
+------------------------------*/
+div#side div#form {
+    width: 200px;
+    margin: 40px 0 80px;
+    box-shadow: 0 0 10px #999;
+    padding: 19px;
+}
+
+div#side div#form form input {
+    width: 160px;
+}
+
+div#side div#form form button {
+    margin-top: 5px;
+    cursor: pointer;
+}

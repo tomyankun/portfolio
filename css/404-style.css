@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div#page-404 {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+@media screen and (max-width: 800px) {
+    div#page-404 {
+        width: 350px;
+    }
+}
+
+div#page-404 a {
+    line-height: 2em;
+}
+
+div#page-404 a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}

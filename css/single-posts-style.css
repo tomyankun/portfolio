@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*------------------------------
+main
+posts
+------------------------------*/
+div#main div#posts {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+@media screen and (max-width: 800px) {
+    div#main div#posts {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    div#main div#posts article {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+/*------------------------------
+main
+article
+h2
+------------------------------*/
+div#main div#posts article h2 {
+    margin-bottom: 5px;
+}
+
+/*------------------------------
+main
+article
+category
+------------------------------*/
+div#main div#posts article div.category::before {
+    content: "カテゴリー：";
+}
+
+div#main div#posts article div.category {
+    font-size: 80%;
+}
+
+/*------------------------------
+main
+article
+time
+------------------------------*/
+div#main div#posts article time::before {
+    content: "投稿日：";
+}
+
+div#main div#posts article time {
+    font-size: 80%;
+}
+
+/*------------------------------
+main
+article
+post-thumbnail
+------------------------------*/
+div#main div#posts article div.post-thumbnail img {
+    width: 600px;
+    max-height: 300px;
+    margin: 10px 0;
+    object-fit: contain;
+}
+
+div#main div#posts article div.post-thumbnail img {
+    display: block;
+}
+@media screen and (max-width: 800px) {
+    div#main div#posts article div.post-thumbnail img {
+        width: 400px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    div#main div#posts article div.post-thumbnail img {
+        width: 300px;
+    }
+} 
+
+/*------------------------------
+main
+post-detail
+------------------------------*/
+div#main div#posts article div.post-detail {
+    margin: 15px 0 20px;
+}
+
+div#main div#posts article div.post-detail p {
+    font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+    div#main div#posts article div.post-detail p {
+        width: 400px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    div#main div#posts article div.post-detail p {
+        width: 300px;
+    }
+}
+
+/*------------------------------
+main
+post-address
+------------------------------*/
+div#main div#posts article div.post-address div {
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    div#main div#posts article div.post-address div {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    div#main div#posts article div.post-address div {
+        width: 300px;
+    }
+}
+
+div#main div#posts article div.post-address div a {
+    transition: 0.1s;
+}
+
+div#main div#posts article div.post-address div a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+div#main div#posts article div.post-address div a span {
+    overflow-wrap: break-word;
+}

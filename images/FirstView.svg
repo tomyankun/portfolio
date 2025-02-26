@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="200" viewBox="0 0 350 200">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        fill: #1c1c1c;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: "Yu Mincho";
+        font-weight: 600;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 16px;
+      }
+
+      .cls-2 {
+        fill: #3c3c3c;
+      }
+
+      .cls-3 {
+        fill: #2c2c2c;
+      }
+    </style>
+  </defs>
+  <text id="MY_PORTFOLIO" data-name="MY PORTFOLIO" class="cls-1" transform="translate(0.11 25.132) scale(1 1.005)">MY PORTFOLIO</text>
+  <text id="PORTFOLIO_OF_TOMOHIRO_KAYATANI" data-name="PORTFOLIO OF TOMOHIRO KAYATANI" class="cls-2" transform="translate(1.874 60.198) scale(1 1.005)">PORTFOLIO OF TOMOHIRO KAYATANI</text>
+  <text id="MY_WORK_IS_PUBLISHED" data-name="MY WORK IS PUBLISHED" class="cls-3" transform="translate(2.521 80.063) scale(1 1.005)">MY WORK IS PUBLISHED</text>
+</svg>

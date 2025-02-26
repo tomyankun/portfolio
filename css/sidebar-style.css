@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poetsen+One&display=swap');
+
+/*------------------------------
+side
+------------------------------*/
+@media screen and (max-width: 800px) {
+    div#side {
+        display: none;
+    }
+}
+
+/*------------------------------
+side
+category-list
+------------------------------*/
+div#side div#category_list {
+    width: 200px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px #999;
+    padding: 9px 19px 19px 19px;
+}
+
+/*------------------------------
+side
+category-list
+h3
+------------------------------*/
+div#side div#category_list h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3f8dd5;
+    border-bottom: 2px solid #3f8dd5;
+}
+
+/*------------------------------
+side
+category-list
+ul
+------------------------------*/
+div#side div#category_list ul {
+    margin: 10px 0;
+}
+
+div#side div#category_list ul li {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transform   : scale(1, 0.85); 
+}
+
+div#side div#category_list ul li a {
+    color: #000;
+}
+
+div#side div#category_list ul li a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
